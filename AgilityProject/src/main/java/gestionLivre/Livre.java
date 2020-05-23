@@ -24,12 +24,12 @@ public class Livre
     /**
      * * Le constructeur d'objet de classe livre affectif
      * @param titre 
-     * @param prixVent
+     * @param prixVente
      * @param auteur
      */
-    public Livre(String titre, double prixVent) {
+    public Livre(String titre, double prixVente) {
     	this.titre     = titre;
-    	this.prixVente = prixVent;
+    	this.prixVente = prixVente;
     }
 
     /**
@@ -37,9 +37,14 @@ public class Livre
      * @param  promotion le pourcentage de la promotion (ex 0.3)
      */
 
-    public void promotion(double promotion)
+    public String promotion(double promotion)
     {
-        this.prixVente = (1 - promotion) * this.prixVente;
+        if (promotion < 0) {
+        	return "promotion négative";
+        }
+    	this.prixVente = (1 - promotion) * this.prixVente;
+		return null;
+        
     }
     
     public String infoLivre()

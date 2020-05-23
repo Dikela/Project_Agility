@@ -22,6 +22,26 @@ public class Auteur
     {
     }
     
+    public String afficherLivres() {
+    	String allLivres = "Les livres de " + this.nom + " sont : ";
+    	for (int i=0; i<livres.size(); i++) {
+    		allLivres += livres.get(i).getTitre();
+    		if (i != livres.size() - 1)
+    				allLivres += ",";
+    		
+    	}
+    	return allLivres;
+    }
+    
+    public Auteur(String nom, int nbVentes) {
+		this.nom = nom;
+		this.nbVentes = nbVentes;
+	}
+
+
+	public String infoAuteur() {
+        return this.nom + " a vendu " + this.nbVentes + " livres";
+    }
     public List<Livre> getLivres() {
 		return livres;
 	}
