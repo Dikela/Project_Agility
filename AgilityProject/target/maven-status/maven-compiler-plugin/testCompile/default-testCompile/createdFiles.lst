@@ -1,0 +1,4 @@
+gestionLivre\LivreTest.class
+stepDefinitions\UserStory1step.class
+gestionLivre\AuteurTest.class
+testRunners\TestRunner.class
