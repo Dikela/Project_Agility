@@ -5,7 +5,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import gestionLivre.Auteur;
 import gestionLivre.Livre;
-
+import agilite.*;
 
 public class AjouterLivresAuteurStep {
 	private Auteur auteur;
@@ -33,4 +33,5 @@ public class AjouterLivresAuteurStep {
 	public void l_application_renvoie_les_livres_ajoutés_de_l_auteur(String infoLivres) {
 		Assert.assertEquals(infoLivres,	infos);
 	}
+	
 }

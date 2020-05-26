@@ -23,5 +23,45 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/33652/.m2/repository/junit/junit/4.13/junit-4.13.jar" sourcepath="C:/Users/33652/.m2/repository/junit/junit/4.13/junit-4.13-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/33652/.m2/repository/junit/junit/4.13/junit-4.13-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="junit"/>
+			<attribute name="maven.artifactId" value="junit"/>
+			<attribute name="maven.version" value="4.13"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/33652/.m2/repository/junit/junit/4.12/junit-4.12.jar" sourcepath="C:/Users/33652/.m2/repository/junit/junit/4.12/junit-4.12-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/33652/.m2/repository/junit/junit/4.12/junit-4.12-javadoc.jar!/"/>
+			<attribute name="maven.groupId" value="junit"/>
+			<attribute name="maven.artifactId" value="junit"/>
+			<attribute name="maven.version" value="4.12"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/33652/.m2/repository/io/cucumber/cucumber-junit/4.4.0/cucumber-junit-4.4.0.jar" sourcepath="C:/Users/33652/.m2/repository/io/cucumber/cucumber-junit/4.4.0/cucumber-junit-4.4.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-junit"/>
+			<attribute name="maven.version" value="4.4.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/33652/.m2/repository/io/cucumber/cucumber-junit/1.2.6/cucumber-junit-1.2.6.jar" sourcepath="C:/Users/33652/.m2/repository/io/cucumber/cucumber-junit/1.2.6/cucumber-junit-1.2.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.cucumber"/>
+			<attribute name="maven.artifactId" value="cucumber-junit"/>
+			<attribute name="maven.version" value="1.2.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
